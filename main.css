@@ -25,8 +25,8 @@ body{
    justify-content: center;
    align-items: space-between;
   border-radius: 50px 1px 50px 1px;
-   width:34%;
-   height:80%;
+   width:40rem;
+   height:50rem;
    padding: 3rem;
   /*  background: rgba(0, 0, 0, 0.356);  */
    box-shadow: 2px 2px 9px 0.8px black;
