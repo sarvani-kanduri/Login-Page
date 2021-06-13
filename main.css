@@ -3,11 +3,18 @@
 *{
     box-sizing: border-box;
 }
-
+html{
+    height:100%;
+       
+    width:100%;
+}
 body{
     font-family: 'Montserrat', sans-serif;
     background: url("beautiful-nature-view-green-leaf-260nw-1917605045.jpg") left 70% top 100%/cover no-repeat;
-    height:100vh;
+    height:100%;
+   
+    width:100%;
+   
 }
 .main-heading{
     margin-left: 40%;
@@ -17,19 +24,22 @@ body{
    
 }
  .login-details{
-   position:fixed;
-   left:30%;
-   top:10%;
+   
+ right:35%; 
+  position: absolute;
+  top:10%; 
+border:1px solid rgba(255, 255, 255, 0.034);
    font-size:1.5rem;
    display: flex;
    flex-direction: column;
    justify-content: center;
-   align-items: space-between;
+   align-items: space-between; 
+   
   border-radius: 50px 1px 50px 1px;
    width:45rem;
    height:50rem;
    padding: 3rem;
-   background:rgba(255, 255, 255, 0.034);  
+   /* background:rgba(255, 255, 255, 0.034);    */
    box-shadow: 2px 2px 9px 0.8px black;
 }
 .login-details input,
@@ -38,7 +48,7 @@ body{
    border-radius: 30rem;
    border:1px solid rgba(255, 255, 255, 0.335);
    background: rgba(255, 255, 255, 0.335);
-   width:65%;
+   width:25rem;
    margin-left: 21%;
 }
 
@@ -82,4 +92,87 @@ body{
 .Login-Button:active{
     color:white;
     background: rgb(13, 80, 13);
+}
+
+@media (max-width:39rem){
+    .login-details{
+   
+      
+      margin-right: auto;
+         position: absolute;
+         top:20%; 
+        right:5%;
+        left:5%;
+       border:1px solid rgba(255, 255, 255, 0.034);
+          font-size:1.5rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: space-between; 
+          
+         border-radius: 50px 1px 50px 1px;
+          width:18.5rem;
+          height:30rem;
+          padding: 2rem;
+          /* background:rgba(255, 255, 255, 0.034);    */
+          box-shadow: 2px 2px 9px 0.8px black;
+       }
+       .login-details input,
+.login-details select{
+/*    padding: 0.7rem; */
+   border-radius: 30rem;
+   border:1px solid rgba(255, 255, 255, 0.335);
+   background: rgba(255, 255, 255, 0.335);
+   width:15rem;
+   margin-left:0;
+  
+}
+
+.login-details label{
+    margin-left:0;
+    padding:0.7rem;
+    color:rgba(0, 0, 0, 0.76); 
+    font-weight: bold;
+    font-size:1rem;
+}
+#passward{
+    padding:1rem;
+    font-size:1rem;
+    margin-left: 0;
+    font-weight: bold;
+} 
+.Login-Button{
+    margin-left: 33%;
+    margin-top: 3%;
+    font-size:1.3rem;
+    font-weight: bold;
+    border-radius: 10px;
+    width:35%;
+    padding:0.5rem;
+    border:1px solid rgb(5, 63, 5);
+    
+    background-image: linear-gradient(to bottom,rgb(59, 172, 59) 20% ,transparent);
+}
+
+.main-heading{
+    margin-left: 30%;
+    font-size:1.5rem;
+    margin-top: 0;
+     color:rgba(0, 0, 0, 0.555); 
+   
+}
+.sign-up{
+    margin-left: 20%;
+    padding:0;
+    color:black;
+    
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: url("beautiful-nature-view-green-leaf-260nw-1917605045.jpg") right 0 top 100%/cover no-repeat;
+    
+    height:40vh;
+    width:35vh;
+    margin:5px;
+
 }
