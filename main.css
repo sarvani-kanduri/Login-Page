@@ -100,7 +100,7 @@ border:1px solid rgba(255, 255, 255, 0.034);
       
       margin-right: auto;
          position: absolute;
-         top:20%; 
+         top:17%; 
         right:5%;
         left:5%;
        border:1px solid rgba(255, 255, 255, 0.034);
@@ -111,7 +111,7 @@ border:1px solid rgba(255, 255, 255, 0.034);
           align-items: space-between; 
           
          border-radius: 50px 1px 50px 1px;
-          width:18.5rem;
+          width:19.5rem;
           height:30rem;
           padding: 2rem;
           /* background:rgba(255, 255, 255, 0.034);    */
@@ -169,7 +169,7 @@ border:1px solid rgba(255, 255, 255, 0.034);
 }
 body{
     font-family: 'Montserrat', sans-serif;
-    background: url("beautiful-nature-view-green-leaf-260nw-1917605045.jpg") right 0 top 100%/cover no-repeat;
+    background: url("beautiful-nature-view-green-leaf-260nw-1917605045.jpg") left 5% top 150%/cover no-repeat;
     
     height:40vh;
     width:35vh;
