@@ -99,19 +99,21 @@ border:1px solid rgba(255, 255, 255, 0.034);
    
       
       margin-right: auto;
+      margin-left:auto;
          position: absolute;
-         top:17%; 
-        right:3%;
-        left:7%;
+         left:auto;
+         right:auto;
+         
        border:1px solid rgba(255, 255, 255, 0.034);
           font-size:1.5rem;
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: space-between; 
-          
-         border-radius: 50px 1px 50px 1px;
-          width:19.5rem;
+          max-width:27rem;
+          min-width:25rem;
+         border-radius: 1px;
+          width:90%;
           height:30rem;
           padding: 2rem;
           background:rgba(255, 255, 255, 0.294);    
@@ -123,7 +125,7 @@ border:1px solid rgba(255, 255, 255, 0.034);
    border-radius: 30rem;
    border:1px solid rgba(255, 255, 255, 0.335);
    background: rgba(255, 255, 255, 0.335);
-   width:16rem;
+   width:20rem;
    margin-left:0;
   
 }
@@ -172,7 +174,7 @@ body{
     background: url("beautiful-nature-view-green-leaf-260nw-1917605045\ -\ Copy.jpg") left 70% top 100%/cover no-repeat;
     
     height:40vh;
-    width:35vh;
+    width:30vw;
     margin:5px;
 
 }
