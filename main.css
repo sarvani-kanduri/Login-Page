@@ -5,15 +5,15 @@
 }
 html{
     height:100%;
-       
+       margin:0;
     width:100%;
 }
 body{
     font-family: 'Montserrat', sans-serif;
     background: url("beautiful-nature-view-green-leaf-260nw-1917605045.jpg") left 70% top 100%/cover no-repeat;
-    height:100%;
+   /*  height:100%;
    
-    width:100%;
+    width:100%; */
    
 }
 .main-heading{
@@ -36,8 +36,8 @@ border:1px solid rgba(255, 255, 255, 0.034);
    align-items: space-between; 
    
   border-radius: 50px 1px 50px 1px;
-   width:45rem;
-   height:50rem;
+   width:40rem;
+   height:43rem;
    padding: 3rem;
    /* background:rgba(255, 255, 255, 0.034);    */
    box-shadow: 2px 2px 9px 0.8px black;
@@ -49,11 +49,11 @@ border:1px solid rgba(255, 255, 255, 0.034);
    border:1px solid rgba(255, 255, 255, 0.335);
    background: rgba(255, 255, 255, 0.335);
    width:25rem;
-   margin-left: 21%;
+   margin-left: 16%;
 }
 
 .login-details label{
-    margin-left: 20%;
+    margin-left: 15%;
     padding:0.7rem;
     color:rgba(0, 0, 0, 0.76); 
     font-weight: bold;
@@ -83,7 +83,7 @@ border:1px solid rgba(255, 255, 255, 0.034);
 }
 
 .sign-up{
-    margin-left: 60%;
+    margin-left: 50%;
     padding:0;
     color:black;
     
@@ -173,8 +173,8 @@ body{
     font-family: 'Montserrat', sans-serif;
     background: url("beautiful-nature-view-green-leaf-260nw-1917605045\ -\ Copy.jpg") left 70% top 90%/cover no-repeat;
     
-    height:100vh;
-    width:30vw;
+  /*   height:100vh;
+    width:30vw; */
     margin:5px;
 
 }
