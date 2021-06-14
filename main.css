@@ -111,7 +111,7 @@ border:1px solid rgba(255, 255, 255, 0.034);
           justify-content: center;
           align-items: space-between; 
           max-width:27rem;
-          min-width:25rem;
+          min-width:22rem;
          border-radius: 1px;
           width:90%;
           height:30rem;
@@ -125,7 +125,7 @@ border:1px solid rgba(255, 255, 255, 0.034);
    border-radius: 30rem;
    border:1px solid rgba(255, 255, 255, 0.335);
    background: rgba(255, 255, 255, 0.335);
-   width:20rem;
+   width:17rem;
    margin-left:0;
   
 }
@@ -175,10 +175,32 @@ body{
     
   /*   height:100vh;
     width:30vw; */
-    margin:5px;
+    /* margin:5px; */
 
 }
 html{
     height:100vh;
 }
+}
+@media(min-width:40rem) and (max-width:80rem){
+    .login-details{
+   margin-top:8rem;
+   margin-left:auto;
+   margin-right:auto;
+         position: static;
+        
+       border:1px solid rgba(255, 255, 255, 0.034);
+          font-size:1.5rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: space-between; 
+          
+         border-radius: 50px 1px 50px 1px;
+          width:37rem;
+          height:40rem;
+          padding: 3rem;
+          /* background:rgba(255, 255, 255, 0.034);    */
+          box-shadow: 2px 2px 9px 0.8px black;
+       }
 }
